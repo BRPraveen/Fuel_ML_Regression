@@ -43,7 +43,7 @@ def main():
 
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True)
-   
+   st.img('''https://image.cnbcfm.com/api/v1/image/106065680-1565184423722gettyimages-458400477.jpeg?v=1565184450&w=929&h=523&vtcrop=y''')
     # following lines create boxes in which user can enter data required to make prediction
     Store = st.number_input("EnterNumber of Store Number",min_value=1, max_value=50)
     Holiday = st.selectbox('Holiday Status',("Holiday","Not Holiday"))
